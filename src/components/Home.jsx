@@ -60,15 +60,7 @@ const Home = () => {
             + New Post
           </Link>
 
-          { }
-          {!localStorage.getItem('signup') && (
-            <Link
-              to="/signin"
-              className="bg-gray-200 hover:bg-gray-300 text-black font-semibold px-4 sm:px-5 py-2 rounded-lg shadow-md transition-all text-sm sm:text-base"
-            >
-              Sign In
-            </Link>
-          )}
+         
 
           { }
           {localStorage.getItem('signup') && (
