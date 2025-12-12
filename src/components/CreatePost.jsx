@@ -25,8 +25,8 @@ const CreatePost = () => {
   }
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-white px-4 sm:px-6 lg:px-8">
-      <div className="bg-gray-50 border border-gray-200 shadow-lg rounded-3xl p-6 sm:p-8 md:p-10 w-full max-w-sm sm:max-w-md md:max-w-lg">
+    <div className="flex justify-center items-center min-h-screen bg-yellow-200 px-4 sm:px-6 lg:px-8">
+      <div className="bg-yellow-100 border border-gray-500 shadow-lg rounded-3xl p-6 sm:p-8 md:p-10 w-full max-w-sm sm:max-w-md md:max-w-lg">
         <h2 className="text-2xl sm:text-3xl font-bold text-center text-black mb-2">
           Create a New Post
         </h2>
@@ -42,7 +42,7 @@ const CreatePost = () => {
               placeholder="Enter your name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="w-full p-3 border border-gray-300 rounded-xl bg-white text-black focus:outline-none focus:ring-2 focus:ring-black transition-all"
+              className="w-full p-3 border border-gray-400 rounded-xl bg-yellow-50 text-black focus:outline-none focus:ring-2 focus:ring-black transition-all"
               required
             />
           </div>
@@ -57,7 +57,7 @@ const CreatePost = () => {
               placeholder="Enter post title"
               value={title}
               onChange={(e) => setTitle(e.target.value)}
-              className="w-full p-3 border border-gray-300 rounded-xl bg-white text-black focus:outline-none focus:ring-2 focus:ring-black transition-all"
+              className="w-full p-3 border border-gray-400 rounded-xl bg-yellow-50 text-black focus:outline-none focus:ring-2 focus:ring-black transition-all"
               required
             />
           </div>
@@ -69,7 +69,7 @@ const CreatePost = () => {
               placeholder="Describe everything about this post here..."
               value={desc}
               onChange={(e) => setDesc(e.target.value)}
-              className="w-full p-3 h-32 sm:h-40 border border-gray-300 rounded-xl bg-white text-black resize-none focus:outline-none focus:ring-2 focus:ring-black transition-all"
+              className="w-full p-3 h-32 sm:h-40 border border-gray-400 rounded-xl bg-yellow-50 text-black resize-none focus:outline-none focus:ring-2 focus:ring-black transition-all"
               required
             ></textarea>
           </div>

@@ -27,9 +27,9 @@ const Home = () => {
   }
 
   return (
-    <div className="min-h-screen bg-white text-black py-8 px-4 sm:px-6 lg:px-10">
+    <div className="min-h-screen bg-yellow-200 text-black py-8 px-4 sm:px-6 lg:px-10">
 
-      <header className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-10 bg-white shadow-md rounded-2xl px-6 py-4 border border-gray-200 space-y-4 sm:space-y-0">
+      <header className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-10 bg-yellow-100 shadow-md rounded-2xl px-6 py-4 border border-gray-200 space-y-4 sm:space-y-0">
         <div className="text-center sm:text-left">
           <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
             Post Blog
@@ -67,7 +67,7 @@ const Home = () => {
             <>
               <button
                 onClick={logout}
-                className="bg-gray-200 hover:bg-gray-300 text-black font-semibold px-4 sm:px-5 py-2 rounded-lg shadow-md transition-all text-sm sm:text-base"
+                className="bg-gray-100 hover:bg-gray-300 text-black font-semibold px-4 sm:px-5 py-2 rounded-lg shadow-md transition-all text-sm sm:text-base"
               >
                 Logout
               </button>
@@ -101,7 +101,7 @@ const Home = () => {
             {posts.map((post) => (
               <div
                 key={post.id}
-                className="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-all duration-300 border border-gray-200 flex flex-col justify-between"
+                className="bg-yellow-100 rounded-2xl shadow-md p-6 hover:shadow-xl transition-all duration-300 border border-gray-200 flex flex-col justify-between"
               >
                 <div>
                   <h2 className="text-xl font-bold text-black mb-2 break-words">

@@ -45,10 +45,10 @@ const SignIn = () => {
   }
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-white px-4 sm:px-6 lg:px-8 text-black">
+    <div className="flex justify-center items-center min-h-screen bg-yellow-200 px-4 sm:px-6 lg:px-8 text-black">
       {show ? (
     
-        <div className="bg-white border border-gray-300 shadow-lg rounded-2xl p-8 sm:p-10 w-full max-w-sm sm:max-w-md md:max-w-lg transition-all duration-300">
+        <div className="bg-yellow-100 border border-gray-500 shadow-lg rounded-2xl p-8 sm:p-10 w-full max-w-sm sm:max-w-md md:max-w-lg transition-all duration-300">
           <h1 className="text-2xl sm:text-3xl font-bold text-center mb-6">
             Welcome Back, <span className="text-gray-800">{localName}</span>
           </h1>
@@ -58,13 +58,13 @@ const SignIn = () => {
               type="text"
               placeholder="Email"
               ref={email}
-              className="w-full p-3 border border-gray-400 rounded-lg focus:outline-none focus:border-black bg-gray-50"
+              className="w-full p-3 border border-gray-400 rounded-lg focus:outline-none focus:border-black bg-yellow-50"
             />
             <input
               type="password"
               placeholder="Password"
               ref={password}
-              className="w-full p-3 border border-gray-400 rounded-lg focus:outline-none focus:border-black bg-gray-50"
+              className="w-full p-3 border border-gray-400 rounded-lg focus:outline-none focus:border-black bg-yellow-50"
             />
 
             <button
@@ -87,7 +87,7 @@ const SignIn = () => {
         </div>
       ) : (
     
-        <div className="bg-white border border-gray-300 shadow-lg rounded-2xl p-8 sm:p-10 w-full max-w-sm sm:max-w-md md:max-w-lg transition-all duration-300">
+        <div className="bg-yellow-100 border border-gray-500 shadow-lg rounded-2xl p-8 sm:p-10 w-full max-w-sm sm:max-w-md md:max-w-lg transition-all duration-300">
           <h1 className="text-2xl sm:text-3xl font-bold text-center mb-6">
             Create an Account
           </h1>
@@ -97,19 +97,19 @@ const SignIn = () => {
               type="text"
               placeholder="Full Name"
               ref={name}
-              className="w-full p-3 border border-gray-400 rounded-lg focus:outline-none focus:border-black bg-gray-50"
+              className="w-full p-3 border border-gray-400 rounded-lg focus:outline-none focus:border-black bg-yellow-50"
             />
             <input
               type="text"
               placeholder="Email"
               ref={email}
-              className="w-full p-3 border border-gray-400 rounded-lg focus:outline-none focus:border-black bg-gray-50"
+              className="w-full p-3 border border-gray-400 rounded-lg focus:outline-none focus:border-black bg-yellow-50"
             />
             <input
               type="password"
               placeholder="Password"
               ref={password}
-              className="w-full p-3 border border-gray-400 rounded-lg focus:outline-none focus:border-black bg-gray-50"
+              className="w-full p-3 border border-gray-400 rounded-lg focus:outline-none focus:border-black bg-yellow-50"
             />
 
             <button

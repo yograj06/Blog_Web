@@ -47,21 +47,15 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-white text-black">
+    <div className="min-h-screen flex flex-col bg-yellow-200 text-black">
    
-      <header className="bg-white shadow-md py-5 text-center border-b border-gray-200">
-        <h1 className="text-4xl font-extrabold text-black tracking-wide">
-          Blog<span className="text-[#715A5A]">Web</span>
-        </h1>
-      </header>
-
        
       <main className="flex-grow">
         <RouterProvider router={router} />
       </main>
 
       
-      <footer className="text-center m-5 sm:mt-10 text-gray-600 text-xs sm:text-sm border-t border-gray-200 pt-4">
+      <footer className="text-center m-5 sm:mt-10 text-gray-800 text-xs sm:text-sm border-t border-gray-500 pt-4">
         © 2025 |
         <span className="text-[#37353E] font-semibold"> BlogWeb All rights reserved</span> — Built
         with ❤️ by Yograj Patel

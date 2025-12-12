@@ -27,8 +27,8 @@ const PostDetails = () => {
   }
 
   return (
-    <div className="min-h-screen flex justify-center items-start py-10 px-4 sm:px-6 lg:px-8 bg-white text-black">
-      <div className="w-full max-w-3xl bg-white border border-gray-300 rounded-2xl shadow-lg p-8 sm:p-10">
+    <div className="min-h-screen flex justify-center items-start py-10 px-4 sm:px-6 lg:px-8 bg-yello-200 text-black">
+      <div className="w-full max-w-3xl bg-yellow-100 border border-gray-300 rounded-2xl shadow-lg p-8 sm:p-10">
         <h1 className="text-3xl sm:text-4xl font-extrabold text-center text-black mb-3 break-words">
           {post.title}
         </h1>
@@ -39,7 +39,7 @@ const PostDetails = () => {
 
         <div
           className="
-            bg-gray-50 rounded-xl p-6 border border-gray-200
+            bg-yellow-50 rounded-xl p-6 border border-gray-200
             text-gray-800 leading-relaxed text-sm sm:text-base
             max-h-[70vh] overflow-y-auto shadow-inner
           "

@@ -1,18 +1,29 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import { Menu, X } from 'lucide-react' 
+import { Menu, X } from 'lucide-react'
 
 const NavBar = () => {
   const [open, setOpen] = useState(false)
 
   return (
-    <nav className="bg-white shadow-md py-3 relative">
+
+    <nav className="bg-yellow-200 shadow-md py-8 relative">
+
       <div className="flex justify-between items-center px-6">
 
-        {}
-        <h1 className="text-xl font-bold text-black">BlogWeb</h1>
+        <header className="bg-yellow-200 text-center">
 
-        {}
+          <h1 className="text-4xl font-extrabold text-black tracking-wide">
+
+            Blog<span className="text-[#715A5A]">Web</span>
+          </h1>
+
+        </header>
+
+        { }
+        <h1 className="text-xl font-bold text-black"></h1>
+
+        { }
         <ul className="hidden sm:flex space-x-8 text-black font-medium">
           <li>
             <NavLink to="/" className="hover:text-gray-600 transition">Home</NavLink>
@@ -25,19 +36,19 @@ const NavBar = () => {
           </li>
         </ul>
 
-        {}
+        { }
         <button className="sm:hidden" onClick={() => setOpen(!open)}>
           {open ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
 
-      {}
+      { }
       {open && (
-        <div className="sm:hidden bg-white shadow-md mt-3 rounded-xl py-4 px-6 space-y-4 text-black font-medium">
+        <div className="sm:hidden bg-yellow-100 shadow-md mt-3 rounded-xl py-4 px-6 space-y-4 text-black font-medium">
           <NavLink
             to="/"
             onClick={() => setOpen(false)}
-            className="block hover:text-gray-600"
+            className="block hover:text-gray-500"
           >
             Home
           </NavLink>
@@ -45,7 +56,7 @@ const NavBar = () => {
           <NavLink
             to="/createpost"
             onClick={() => setOpen(false)}
-            className="block hover:text-gray-600"
+            className="block hover:text-gray-500"
           >
             Create Post
           </NavLink>
@@ -53,7 +64,7 @@ const NavBar = () => {
           <NavLink
             to="/signin"
             onClick={() => setOpen(false)}
-            className="block hover:text-gray-600"
+            className="block hover:text-gray-500"
           >
             Sign In
           </NavLink>
