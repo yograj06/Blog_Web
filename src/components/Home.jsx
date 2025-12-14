@@ -104,7 +104,7 @@ const Home = () => {
                 className="bg-yellow-100 rounded-2xl shadow-md p-6 hover:shadow-xl transition-all duration-300 border border-gray-200 flex flex-col justify-between"
               >
                 <div>
-                  <h2 className="text-xl font-bold text-black mb-2 break-words">
+                  <h2 className="text-xl font-bold text-black mb-2 break-word">
                     {post.title}
                   </h2>
                   <p className="text-gray-800 leading-relaxed text-sm sm:text-base line-clamp-3">
