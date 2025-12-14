@@ -27,9 +27,9 @@ const PostDetails = () => {
   }
 
   return (
-    <div className="min-h-screen flex justify-center items-start py-10 px-4 sm:px-6 lg:px-8 bg-yello-200 text-black">
+    <div className="min-h-screen flex justify-center items-start py-10 px-4 sm:px-6 lg:px-8 bg-yellow-200 text-black">
       <div className="w-full max-w-3xl bg-yellow-100 border border-gray-300 rounded-2xl shadow-lg p-8 sm:p-10">
-        <h1 className="text-3xl sm:text-4xl font-extrabold text-center text-black mb-3 break-words">
+        <h1 className="text-3xl sm:text-4xl font-extrabold text-center text-black mb-3 wrap-break-words">
           {post.title}
         </h1>
 

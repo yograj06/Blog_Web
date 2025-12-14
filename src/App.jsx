@@ -50,7 +50,7 @@ function App() {
     <div className="min-h-screen flex flex-col bg-yellow-200 text-black">
    
        
-      <main className="flex-grow">
+      <main className="grow">
         <RouterProvider router={router} />
       </main>
 
